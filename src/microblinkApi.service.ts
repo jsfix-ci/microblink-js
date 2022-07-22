@@ -1,6 +1,6 @@
 import { IMicroblinkApi } from './microblinkApi.interface'
 import { Observable } from 'rxjs/internal/Observable'
-import { Observer } from 'rxjs/internal/types'
+import { Observer } from 'rxjs'
 import { StatusCodes } from './microblink.types'
 
 // const DEFAULT_ENDPOINT = 'https://api.microblink.com'

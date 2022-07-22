@@ -8,7 +8,7 @@ import { IMicroblink } from './microblink.interface'
 import { IMicroblinkApi } from './microblinkApi.interface'
 import MicroblinkApi from './microblinkApi.service'
 import { Observable } from 'rxjs/internal/Observable'
-import { Observer } from 'rxjs/internal/types'
+import { Observer } from 'rxjs'
 import {
   ScanInputFile,
   ScanInputFrame,
